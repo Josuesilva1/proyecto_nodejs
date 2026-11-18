@@ -1,0 +1,81 @@
+=========================pasos en una linea de comandos para crear un proyecto express js===========
+
+SkyNet@DESKTOP-VP5DDPV MINGW64 ~/OneDrive/Escritorio/node_project (main)
+$ npm install express-generator -g
+npm warn deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please
+ update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+
+added 10 packages in 16s
+
+SkyNet@DESKTOP-VP5DDPV MINGW64 ~/OneDrive/Escritorio/node_project (main)
+$ express --view=pug
+destination is not empty, continue? [y/N] n
+aborting
+
+SkyNet@DESKTOP-VP5DDPV MINGW64 ~/OneDrive/Escritorio/node_project (main)
+$  express --view=pug proyecto_nodejs
+
+   create : proyecto_nodejs\
+   create : proyecto_nodejs\public\
+   create : proyecto_nodejs\public\javascripts\
+   create : proyecto_nodejs\public\images\
+   create : proyecto_nodejs\public\stylesheets\
+   create : proyecto_nodejs\public\stylesheets\style.css
+   create : proyecto_nodejs\routes\
+   create : proyecto_nodejs\routes\index.js
+   create : proyecto_nodejs\routes\users.js
+   create : proyecto_nodejs\views\
+   create : proyecto_nodejs\views\error.pug
+   create : proyecto_nodejs\views\index.pug
+   create : proyecto_nodejs\views\layout.pug
+   create : proyecto_nodejs\app.js
+   create : proyecto_nodejs\package.json
+   create : proyecto_nodejs\bin\
+   create : proyecto_nodejs\bin\www
+
+   change directory:
+     > cd proyecto_nodejs
+
+   install dependencies:
+     > npm install
+
+   run the app:
+     > SET DEBUG=proyecto-nodejs:* & npm start
+
+
+SkyNet@DESKTOP-VP5DDPV MINGW64 ~/OneDrive/Escritorio/node_project (main)
+$ npm install
+
+up to date, audited 66 packages in 5s
+
+30 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+SkyNet@DESKTOP-VP5DDPV MINGW64 ~/OneDrive/Escritorio/node_project (main)
+$ cd proyecto_nodejs
+
+SkyNet@DESKTOP-VP5DDPV MINGW64 ~/OneDrive/Escritorio/node_project/proyecto_nodejs (main)
+$ npm install
+npm warn deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, featu
+re detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your depe
+ndencies to the actual version of core-js.
+
+added 132 packages, and audited 133 packages in 3m
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+13 vulnerabilities (6 low, 3 moderate, 4 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+SkyNet@DESKTOP-VP5DDPV MINGW64 ~/OneDrive/Escritorio/node_project/proyecto_nodejs (main)
+$
