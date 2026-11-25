@@ -1,0 +1,18 @@
+extends ../layout
+
+block content
+  a(href='/bicicletas') Volver
+
+  br
+  br
+
+  h1 Detalle de la Bicicleta ##{bici.id}
+
+  br
+
+  textarea.form-control(rows='6' readonly)
+    | ID: #{bici.id}
+    | Color: #{bici.color}
+    | Modelo: #{bici.modelo}
+    | Latitud: #{bici.ubicacion[0]}
+    | Longitud: #{bici.ubicacion[1]}
