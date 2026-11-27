@@ -52,6 +52,7 @@ Bicicleta.removeById = function (aBiciId) {
  * @param {number|string} aBiciId - ID de la bicicleta a eliminar.
  */
 
+/*
 var a = new Bicicleta(1, 'rojo', 'urbana', [14.0992, -87.2041]);
 var b = new Bicicleta(2, 'blanca', 'urbana', [14.0825, -87.1835]);
 var c = new Bicicleta(3, 'azul', 'montanesa', [14.0825, -87.1835]);
@@ -60,5 +61,6 @@ var c = new Bicicleta(3, 'azul', 'montanesa', [14.0825, -87.1835]);
 Bicicleta.add(a);
 Bicicleta.add(b);
 Bicicleta.add(c);
+**/
 
 module.exports = Bicicleta;
